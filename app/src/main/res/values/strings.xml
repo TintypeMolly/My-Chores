@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">My Chores</string>
     <string name="action_settings">Settings</string>
-    <string name="add_chore">Add a new task</string>
+    <string name="add_chore_activity_label">Add a new task</string>
+    <string name="task_name_label">Name of task</string>
+    <string name="task_period_label">How frequent?</string>
+    <string-array name="chore_period_array">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Seasonally</item>
+        <item>Yearly</item>
+    </string-array>
 </resources>

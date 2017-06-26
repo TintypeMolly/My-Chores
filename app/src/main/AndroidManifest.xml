@@ -21,7 +21,7 @@
         </activity>
         <activity
             android:name=".AddChoreActivity"
-            android:label="@string/add_chore" />
+            android:label="@string/add_chore_activity_label" />
     </application>
 
 </manifest>

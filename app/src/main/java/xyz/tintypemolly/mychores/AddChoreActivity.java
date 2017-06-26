@@ -4,6 +4,8 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
 public class AddChoreActivity extends AppCompatActivity {
 
@@ -15,6 +17,10 @@ public class AddChoreActivity extends AppCompatActivity {
     if (actionBar != null) {
       actionBar.setDisplayHomeAsUpEnabled(true);
     }
+    Spinner spinner = (Spinner) findViewById(R.id.period_spinner);
+    ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.chore_period_array, android.R.layout.simple_spinner_item);
+    adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+    spinner.setAdapter(adapter);
   }
 
   @Override

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">My Chores</string>
     <string name="action_settings">Settings</string>
+    <string name="add_chore">Add a new task</string>
 </resources>
